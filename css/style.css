@@ -147,5 +147,8 @@ footer{
 	#logo{
 	width: 200px;
 	padding-top: 7px;
-}
+	}
+	.intro-heading{
+		font-size: 35px !important;
+	}
 }
