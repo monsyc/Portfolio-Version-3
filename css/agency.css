@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0 auto
 }
 .bg-light-gray {
-	background-color: #f7f7f7
+	background-color: white;
 }
 .bg-darkest-gray {
 	background-color: #222
@@ -309,7 +309,8 @@ section {
 .timeline {
 	list-style: none;
 	padding: 0;
-	position: relative
+	position: relative;
+	margin: 0 auto;
 }
 .timeline:before {
 	top: 0;
@@ -317,14 +318,16 @@ section {
 	position: absolute;
 	content: "";
 	width: 2px;
-	background-color: #f1f1f1;
+	background-color: #b9b9ba;
 	left: 40px;
 	margin-left: -1.5px
 }
 .timeline>li {
-	margin-bottom: 50px;
+	padding-top: 30px;
+	margin-bottom: 10px;
 	position: relative;
-	min-height: 50px
+	min-height: 50px;
+	margin:0 auto;
 }
 .timeline>li:before, .timeline>li:after {
 	content: " ";
@@ -355,8 +358,8 @@ section {
 .timeline>li .timeline-image {
 	left: 0;
 	margin-left: 0;
-	/*width: 80px;
-	height: 80px;*/
+	width: 60px;
+	height: 60px;
 	position: absolute;
 	z-index: 100;
 /*	background-color: #fed136;
@@ -406,8 +409,8 @@ section {
 	left: 50%
 }
 .timeline>li {
-	margin-bottom: 100px;
-	min-height: 100px
+	margin-bottom: 0px;
+	min-height: 50px
 }
 .timeline>li .timeline-panel {
 	width: 41%;
@@ -416,10 +419,10 @@ section {
 	text-align: right
 }
 .timeline>li .timeline-image {
-	width: 100px;
-	height: 100px;
+	width: 60px;
+	height: 60px;
 	left: 50%;
-	margin-left: -50px
+	margin-left: -32px
 }
 .timeline>li .timeline-image h4 {
 	font-size: 13px;
@@ -435,15 +438,15 @@ section {
 
 @media (min-width:992px) {
 .timeline>li {
-	min-height: 150px
+	min-height: 50px
 }
 .timeline>li .timeline-panel {
 	padding: 0 20px 20px
 }
 .timeline>li .timeline-image {
-	width: 150px;
-	height: 150px;
-	margin-left: -75px
+	width: 60px;
+	height: 60px;
+	margin-left: -32px
 }
 .timeline>li .timeline-image h4 {
 	font-size: 18px;
@@ -495,7 +498,7 @@ aside.clients img {
 	margin: 50px auto
 }
 section#contact {
-	background-color: #6d6e71;
+	background-color: white;
 /*	background-image: url(../img/map-image.png);*/
 	background-position: center;
 	background-repeat: no-repeat
@@ -513,7 +516,7 @@ section#contact .form-group input.form-control {
 	height: auto
 }
 section#contact .form-group textarea.form-control {
-	height: 236px
+	height: 200px
 }
 section#contact .form-control:focus {
 	border-color: #fed136;
@@ -551,7 +554,7 @@ footer {
 	text-align: center
 }
 footer span.copyright {
-	line-height: 40px;
+	line-height: 28px;
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	text-transform: none

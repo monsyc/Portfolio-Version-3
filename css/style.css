@@ -61,11 +61,81 @@
 	text-align: center;
 	margin: 0 auto;
 }
+.clients{
+	background-color: #f7f7f7;
+}
+
+#about{
+	background-color: #f7f7f7;
+}
 
 /*Contact*/
 
 #contact-heading{
 	margin-bottom: 50px;
+	color: #333 !important;
+}
+
+#contact-info{
+	margin-top: 70px;
+}
+
+#text-send{
+	color: #58595b;
+	font-weight:700;
+	font-size: 24px;
+}
+
+.text-info{
+	color: #58595b;
+	margin-bottom: 1px !important;
+}
+
+.text-phone-mail{
+	color: #58595b;
+	margin-bottom: 1px !important;
+}
+
+#text-phone-mail{
+	margin-top: 30px;
+}
+
+.triangle-blue{
+	width: 16px;
+	padding-top: 40px;
+	float: right;
+}
+
+.triangle-blue-r{
+	width: 16px;
+	padding-top: 40px;
+	float: left;
+}
+
+/*Footer*/
+
+footer{
+	background-color: #58595b;
+}
+
+
+.copyright{
+	color: white !important;
+}
+
+.icons{
+	width: 40px;
+}
+
+.social-media{
+	float: right;
+}
+
+/*Projects*/
+.projects-titles{
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 2px !important;
 }
 
 /*Start Media Queries*/
@@ -73,4 +143,9 @@
 @media only screen and (max-width: 767px) {
     .navbar-default .nav li a {
     text-align: center;
+	}
+	#logo{
+	width: 200px;
+	padding-top: 7px;
+}
 }
