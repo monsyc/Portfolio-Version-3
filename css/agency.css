@@ -19,7 +19,7 @@ a, a:hover, a:focus, a:active, a.active {
 	outline: 0;
 }
 a {
-	color: white !important;
+	color: #262729 !important;
 }
 a:hover, a:focus, a:active, a.active {
 	color: #4cc3c8 !important;
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #fff
 }
 .navbar-default {
-	background-color: rgba(0,0,0,0.2);
+	background-color: white;
 	border-color: transparent
 }
 .navbar-default .navbar-brand {
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fec503
 }
 .navbar-default .navbar-collapse {
-	border-color: rgba(255,255,255,.02)
+	border-color: rgba(255,255,255,.02);
 }
 .navbar-default .navbar-toggle {
 	background-color: #fed136;
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	font-weight: 400;
 	letter-spacing: 1px;
-	color: #fff
+	color: #fff;
 }
 .navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
 	color: #fed136;
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: #4cc3c8
+	border-color-color: #4cc3c8;
 }
 .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
@@ -138,8 +138,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width:768px) {
 .navbar-default {
-	background-color: transparent;
-	padding: 25px 0;
+	background-color: white;
+	padding: 10px 0;
 	-webkit-transition: padding .3s;
 	-moz-transition: padding .3s;
 	transition: padding .3s;
@@ -155,15 +155,15 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 3px
 }
 .navbar-default.navbar-shrink {
-	background-color: rgba(0,0,0,0.25);
-	padding: 10px 0
+	background-color: white;
+	padding: 10px 0;
 }
 .navbar-default.navbar-shrink .navbar-brand {
 	font-size: 1.5em
 }
 }
 header {
-	background-image: url(../img/header-bg3-2.jpg);
+	background-image: url();
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
@@ -187,7 +187,7 @@ header .intro-text .intro-lead-in {
 }
 header .intro-text .intro-heading {
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
+	
 	font-weight: 400;
 	font-size: 50px;
 	line-height: 50px;
@@ -196,8 +196,8 @@ header .intro-text .intro-heading {
 
 @media (min-width:768px) {
 header .intro-text {
-	padding-top: 300px;
-	padding-bottom: 200px
+	padding-top: 250px;
+	padding-bottom: 250px
 }
 header .intro-text .intro-lead-in {
 	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -208,7 +208,6 @@ header .intro-text .intro-lead-in {
 }
 header .intro-text .intro-heading {
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 55px;
 	line-height: 75px;
@@ -232,9 +231,14 @@ section h3.section-subheading {
 	margin-bottom: 75px
 }
 
+@media (min-width:991px) {
+section {
+	padding: 150px 0;
+}
+}
 @media (min-width:768px) {
 section {
-	padding: 150px 0
+	
 }
 }
 .service-heading {
@@ -608,7 +612,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 }
 .portfolio-modal .modal-content p.item-intro {
 	margin: 20px 0 30px;
-	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 14px
 }
